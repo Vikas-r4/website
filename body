@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VIKAS - Personal Portfolio">
+    <title> VIKAS - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>VIKAS</h1>
+            <p>Web Developer | Designer | Creator</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="#" alt="Your Name" class="profile-img">
+            <p>Hi, I'm  VIKAS. I'm a web developer with a passion for creating beautiful, user-friendly websites. I have experience with front-end technologies like HTML, CSS, and JavaScript, as well as back-end technologies such as Node.js and databases.</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="#" alt="Project 1">
+                    <h3>Project One</h3>
+                    <p>A brief description of the project goes here. It could be a web app, a design, or something else you've worked on.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="#" alt="Project 2">
+                    <h3>Project Two</h3>
+                    <p>Another description of your project. Describe the challenges you faced, your process, or the technologies used.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 VIKAS. All rights reserved.</p>
+            <div class="socials">
+                <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
